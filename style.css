@@ -1,0 +1,95 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar-brand {
+  font-weight: 700;
+}
+
+.nav-link {
+  font-size: 16px;
+}
+
+.nav-link.active {
+  font-weight: 700;
+}
+
+#hero {
+  background: linear-gradient(160deg, #048853, #000);
+  height: 100vh;
+  width: 100%;
+}
+
+.hero-tag h1 {
+  color: #fff;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 72px;
+}
+.hero-tag p {
+  color: #fff;
+  font-size: 16px;
+  margin-bottom: 60px;
+  margin-top: 20px;
+  line-height: 20px;
+  width: 75%;
+}
+.button-lg-primary {
+  width: 200px;
+  height: 50px;
+  background-color: #fff;
+  color: #048853;
+  border: none;
+  font-size: 20px;
+  font-weight: 700;
+}
+.container1 {
+  background-color: #195f43;
+}
+#layanan {
+  color: #fff;
+  font-weight: 700;
+}
+.kontak {
+  background-color: #195f43;
+}
+.us {
+  color: #fff;
+  font-weight: 700;
+}
+
+.mb-3 {
+  color: #fff;
+  font-weight: 400;
+}
+
+/* RESPONSIVE */
+@media screen and (max-width: 720px) {
+  .hero-tag h1 {
+    font-size: 35px;
+  }
+  .hero-tag p {
+    font-size: 14px;
+  }
+  .button-lg-primary {
+    width: 200px;
+    height: 30px;
+    background-color: #fff;
+    color: #048853;
+    border: none;
+    font-size: 15px;
+    font-weight: 400;
+  }
+  #layanan {
+    width: 350px;
+  }
+  #about {
+    width: 350px;
+  }
+  #contact {
+    width: 350px;
+  }
+  .footer {
+    font-size: 10px;
+  }
+}
